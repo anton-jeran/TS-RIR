@@ -29,7 +29,7 @@ This folder constain Synthetic RIRs generated using [**Geometric Acoustic Simula
 
 ## Translate Synthetic RIRs to Real RIRs using the trained model
 
-Download all the [**MODEL FILES**](https://drive.google.com/file/d/1fdAaIkvFbky-Xf7iuYCFa87nWpSaI1Ow/view?usp=sharing) and move all the files to [**generator**] folder. Create similar for structure as the dataset inside the [**generator**] folder. You can convert [**Synthetic RIRs**] to [**Real RIRs**] by running following command inside the [**generator**] folder. 
+Download all the [**MODEL FILES**](https://drive.google.com/file/d/1fdAaIkvFbky-Xf7iuYCFa87nWpSaI1Ow/view?usp=sharing) and move all the files to **generator** folder. Create similar for structure as the dataset inside the **generator** folder. You can convert **Synthetic RIRs** to **Real RIRs** by running following command inside the **generator** folder. 
 
 
 ```

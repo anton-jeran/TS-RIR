@@ -60,9 +60,20 @@ To monitor the training using tensorboard, run the followind command
 tensorboard --logdir=./train
 ```
 
-## Output
+## Results
 The figure below shows Synthetic RIR generated using [**Geometric Acoustic Simulator**](https://github.com/RoyJames/pygsound), Synthetic RIR translated to Real RIR using our [**TS-RIRGAN**](https://arxiv.org/pdf/2103.16804v2.pdf) and a Real RIR from [**BUT ReverbDB**](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) dataset. Please note that there is no one-to-one relationship between Synthetic RIR and Real RIR from **BUT ReverbDB**. We show an example of Real RIR to compare the energy distribution of our translated RIR with the energy distribution of Real RIR.
 ![spectrogram.png](https://github.com/anton-jeran/TS-RIR/blob/main/images/spectrogram.png)
+
+## Output
+
+You can download RIRs generated for our Kaldi Far-field Automatic Speech Recognition Exepriments.
+
+- RIR generated using Geomteric Acoustic Simulator ([**GAS**](https://github.com/RoyJames/pygsound)). -- [**Output**](https://drive.google.com/file/d/175g-lZSJpU1yrjm8LB5c3tOtdJxi-RAc/view?usp=sharing)
+- Perform **room equalization** on Synthetic RIRs from **GAS**. -- [**Output**](https://drive.google.com/file/d/1Xo8eX3vlZMvLyKBYAGovO9XgpeFjpsMk/view?usp=sharing)
+- First, perform **room equalization**, then **translate the equalized synthetic RIR to a real RIR**. -- [**Output**](https://drive.google.com/file/d/1zKGS2ENYF_YTnhaifXKQyh3Q-g9wFeLK/view?usp=sharing)
+- Only **translate synthetic RIR to real RIR**. -- [**Output**](https://drive.google.com/file/d/1ZISePenNQ37_0xazlr1TSMjnVxktkrjD/view?usp=sharing)
+- First, **translate a synthetic RIR to a real RIR**, then **perform room equalization to the translated RIR**. -- [**Output**](https://drive.google.com/file/d/1PrLvFOl10qqztNob8whZFdErHg6yYrSt/view?usp=sharing)
+
 
 ### Attribution
 

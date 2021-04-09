@@ -119,7 +119,7 @@ If you use **Real RIRs** please consider citing
   year      = {2019}
 }
 ```
-If you use **Synthetic RIRs** from our **dataset folder**(https://drive.google.com/file/d/1ivj_UZ5j5inAZwsDTCQ6jEvI5JDtwH_2/view?usp=sharing), please consider citing
+If you use **Synthetic RIRs** from our dataset folder([**IRs_for_GAN**](https://drive.google.com/file/d/1ivj_UZ5j5inAZwsDTCQ6jEvI5JDtwH_2/view?usp=sharing)).
 
 ```
 @inproceedings{9052932,

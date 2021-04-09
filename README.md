@@ -1,6 +1,6 @@
 # TS-RIR
 
-This is the official implementation of **TS-RIRGAN**. We started our implementation from [**WaveGAN**](https://github.com/chrisdonahue/wavegan). TS-RIRGAN is one dimensional CycleGAN that takes synthetic RIRs as raw waveform audio and translate it into real RIRs. Our network architecture is shown below.
+This is the official implementation of **TS-RIRGAN**. We started our implementation from [**WaveGAN**](https://github.com/chrisdonahue/wavegan). TS-RIRGAN is a one dimensional CycleGAN that takes synthetic RIRs as raw waveform audio and translate it into real RIRs. Our network architecture is shown below.
 
 
 

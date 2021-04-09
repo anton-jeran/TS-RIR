@@ -1,6 +1,6 @@
 # TS-RIR
 
-This is the official implementation of **TS-RIRGAN**. We started our implementation from [**WaveGAN**](https://github.com/chrisdonahue/wavegan). TS-RIRGAN is a one dimensional CycleGAN that takes synthetic RIRs as raw waveform audio and translate it into real RIRs. Our network architecture is shown below.
+This is the official implementation of **TS-RIRGAN**. We started our implementation from [**WaveGAN**](https://github.com/chrisdonahue/wavegan). TS-RIRGAN is a one-dimensional CycleGAN that takes synthetic RIRs as raw waveform audio and translates it into real RIRs. Our network architecture is shown below.
 
 
 
@@ -25,11 +25,11 @@ cudnn ==7.6.5
 
 In order to train **TS-RIRGAN** to translate Synthetic RIRs to Real RIRs, download the RIRs from [**IRs_for_GAN**](https://drive.google.com/file/d/1ivj_UZ5j5inAZwsDTCQ6jEvI5JDtwH_2/view?usp=sharing). Unzip **IRs_for_GAN** directory inside **TS-RIR** folder.
 
-This folder constain Synthetic RIRs generated using [**Geometric Acoustic Simulator**](https://github.com/RoyJames/pygsound) and Real RIRs from [**BUT ReverbDB**](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) dataset.
+This folder contains Synthetic RIRs generated using [**Geometric Acoustic Simulator**](https://github.com/RoyJames/pygsound) and Real RIRs from [**BUT ReverbDB**](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) dataset.et.
 
 ## Translate Synthetic RIRs to Real RIRs using the trained model
 
-Download all the [**MODEL FILES**](https://drive.google.com/file/d/1fdAaIkvFbky-Xf7iuYCFa87nWpSaI1Ow/view?usp=sharing) and move all the files to **generator** folder. Create similar for structure as the dataset inside the **generator** folder. You can convert **Synthetic RIRs** to **Real RIRs** by running following command inside the **generator** folder. 
+Download all the [**MODEL FILES**](https://drive.google.com/file/d/1fdAaIkvFbky-Xf7iuYCFa87nWpSaI1Ow/view?usp=sharing) and move all the files to the **generator** folder. Create a similar structure as the dataset inside the **generator** folder. You can convert **Synthetic RIRs** to **Real RIRs** by running the following command inside the **generator** folder.
 
 
 ```
@@ -61,8 +61,7 @@ tensorboard --logdir=./train
 ```
 
 ## Output
-Figure below show Synthetic RIR generated using [**Geometric Acoustic Simulator**](https://github.com/RoyJames/pygsound), Synthetic RIR translated to Real RIR using our [**TS-RIRGAN**](https://arxiv.org/pdf/2103.16804v2.pdf) and a Real RIR from [**BUT ReverbDB**](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) dataset. Please not that there is no one-to-one relationship between Synthetic RIR and Real RIR from **BUT ReverbDB**. We show an example Real RIR to comapre the energy distribution of our translated RIR.
-
+The figure below shows Synthetic RIR generated using [**Geometric Acoustic Simulator**](https://github.com/RoyJames/pygsound), Synthetic RIR translated to Real RIR using our [**TS-RIRGAN**](https://arxiv.org/pdf/2103.16804v2.pdf) and a Real RIR from [**BUT ReverbDB**](https://speech.fit.vutbr.cz/software/but-speech-fit-reverb-database) dataset. Please note that there is no one-to-one relationship between Synthetic RIR and Real RIR from **BUT ReverbDB**. We show an example of Real RIR to compare the energy distribution of our translated RIR with the energy distribution of Real RIR.
 ![spectrogram.png](https://github.com/anton-jeran/TS-RIR/blob/main/images/spectrogram.png)
 
 ### Attribution
@@ -120,7 +119,7 @@ If you use **Real RIRs** please consider citing
   year      = {2019}
 }
 ```
-If you use **Synthetic RIRs** from our dataset folder, please consider citing
+If you use **Synthetic RIRs** from our **dataset folder**(https://drive.google.com/file/d/1ivj_UZ5j5inAZwsDTCQ6jEvI5JDtwH_2/view?usp=sharing), please consider citing
 
 ```
 @inproceedings{9052932,

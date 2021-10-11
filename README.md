@@ -1,6 +1,7 @@
 # Related Works
 
 1) [**IR-GAN: Room Impulse Response Generator for Far-field Speech Recognition (INTERSPEECH2021)**](https://github.com/anton-jeran/IR-GAN)
+2) [**FAST-RIR: FAST NEURAL DIFFUSE ROOM IMPULSE RESPONSE GENERATOR**](https://github.com/anton-jeran/FAST-RIR)
 
 
 # TS-RIR (Accepted to IEEE ASRU 2021)

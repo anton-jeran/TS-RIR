@@ -4,6 +4,7 @@
 2) [**FAST-RIR: FAST NEURAL DIFFUSE ROOM IMPULSE RESPONSE GENERATOR (ICASSP 2022)**](https://github.com/anton-jeran/FAST-RIR)
 3) [**MESH2IR: Neural Acoustic Impulse Response Generator for Complex 3D Scenes (ACM Multimedia 2022)**](https://anton-jeran.github.io/M2IR/)
 
+**NEWS: We release MULTI-CHANNEL MULTI-SPEAKER MULTI-SPATIAL AUDIO CODEC. The official code of our network [**M3-AUDIODEC**](https://github.com/anton-jeran/MULTI-AUDIODEC) is available.** 
 
 # TS-RIR (Accepted to IEEE ASRU 2021)
 
